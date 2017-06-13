@@ -10,4 +10,4 @@ By modifing the chart object properties I'm able to modify the design to match t
 
 I believe this is also a good use of interactive data since the product team has decided to incorporate the chart to engage new users. The user can hover their cursor over each piece of data and get exact values.
 
-While this is a proof of concept I'd like to note in a Production ready environment I'd strive for pixel perfection when matching the approved design.
+While this is a proof of concept I'd like to note in a Production ready environment I'd strive for pixel perfection when matching the approved design. I also put emphasis on using dynamic data over matching the animation frame for frame. 
