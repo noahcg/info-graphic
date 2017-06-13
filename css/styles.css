@@ -9,7 +9,9 @@
   color: #000;
   font-family: Arial Narrow,Arial,sans-serif; 
   font-size: 26px;
+  position: relative;
   text-align: center;
+  top: -100px;
 }
 
 #chart_container span{

@@ -28,6 +28,9 @@ $(document).ready(function() {
 		},
 		maintainAspectRatio: false,
 		options: {
+			animation: {
+				easing: 'easeOutCirc'
+			},
 			scales: {
 				yAxes: [{
 					ticks: {
@@ -67,4 +70,8 @@ $(document).ready(function() {
 	currentValue = Math.max.apply(null, data);
 	
 	$('<h1><span>' + currentValue + '</span> available articles</h1>').prependTo('#chart_container');
+
+	$('h1').animate({
+		top: 0
+	}, 500);
 });
